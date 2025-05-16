@@ -1,0 +1,97 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100%;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Navigation */
+  header {
+    background-color: #1a1a1a;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #00bcd4;
+  }
+  
+  .btn {
+    background-color: #00bcd4;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #fff !important;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://source.unsplash.com/1600x600/?technology,website') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-btn {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1a1a1a;
+    color: #aaa;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
